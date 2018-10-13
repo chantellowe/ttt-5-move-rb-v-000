@@ -7,6 +7,6 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Where would you like to go?"
-
+input = gets.strip
 
 # Code your CLI Here
