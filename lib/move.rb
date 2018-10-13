@@ -10,8 +10,8 @@ end
 def input_to_index(user_input)
   user_input = "6"
   converted_input = user_input.to_i
-  final_input = converted_input - 1
-  return final_input
+  converted_input -= 1
+  return converted_input
 end
 
 def move
